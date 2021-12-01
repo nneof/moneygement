@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Homepage from './Homepage';
+import { useNavigate } from 'react-router-dom';
 
 function LoginForm() {
-
+    const navigate = useNavigate();
     const [credentials, setCredentials] = useState({ username: "", password: "" });
 
     const usernameChangeHandler = (event) => {
@@ -27,12 +27,11 @@ function LoginForm() {
         // TODO: collect username in order to use it..
         // TODO: check if the user exists in the DB
         if (credentials.username === "admin" && credentials.password === "admin") {
-          <Homepage />
-          console.log("Welcome");
+            navigate('/homepage')
         } else {
-          console.log("Wrong credentials");
+            console.log("Wrong credentials");
         }
-      }
+    }
 
     return (
         <form onSubmit={submitHandler}>

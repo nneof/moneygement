@@ -1,24 +1,19 @@
 import React from 'react';
 import LoginForm from './views/LoginForm';
-// import Homepage from './views/Homepage';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Homepage from './views/Homepage';
+import NotFound from './views/NotFound';
+
 
 function App() {
-
-  // const Login = credentials => {
-  //   console.log(credentials);
-  //   // TODO: collect username in order to use it..
-  //   // TODO: check if the user exists in the DB
-  //   if (credentials.username === "admin" && credentials.password === "admin") {
-  //     <Homepage />
-  //     console.log("Welcome");
-  //   } else {
-  //     console.log("Wrong credentials");
-  //   }
-  // }
-
   return (
     <div className="App">
-      <LoginForm />
+      <Routes>
+        <Route path="/login" element={<LoginForm />} />
+        <Route path="/homepage" element={<Homepage />} />
+        <Route path="/not_found" element={<NotFound />} />
+        <Route path="*" element={<Navigate replace to="/not_found" />} />
+      </Routes>
     </div>
   );
 }
