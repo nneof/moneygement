@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import style from '../styling/LoginForm.module.css';
 
 function LoginForm() {
     const navigate = useNavigate();
@@ -34,20 +35,22 @@ function LoginForm() {
     }
 
     return (
-        <form onSubmit={submitHandler}>
-            <div className="form-inner">
-                <h2>Login</h2>
-                <div className="form-group">
-                    <label htmlFor="username">Userame:</label>
-                    <input type="text" name="username" id="username" onChange={usernameChangeHandler} value={credentials.username} />
+        <div className={style.App}>
+            <form onSubmit={submitHandler}>
+                <div className={style['form-inner']}>
+                    <h2>Login</h2>
+                    <div className={style['form-group']}>
+                        <label htmlFor="username">Userame:</label>
+                        <input type="text" name="username" id="username" onChange={usernameChangeHandler} value={credentials.username} />
+                    </div>
+                    <div className={style['form-group']}>
+                        <label htmlFor="password">Password:</label>
+                        <input type="password" name="password" id="password" onChange={passwordChangeHandler} value={credentials.password} />
+                    </div>
+                    <input type="submit" value="Login" />
                 </div>
-                <div className="form-group">
-                    <label htmlFor="password">Password:</label>
-                    <input type="password" name="password" id="password" onChange={passwordChangeHandler} value={credentials.password} />
-                </div>
-                <input type="submit" value="Login" />
-            </div>
-        </form>
+            </form>
+        </div >
     )
 }
 

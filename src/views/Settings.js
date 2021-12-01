@@ -1,17 +1,15 @@
 import React from 'react'
 import NavigationBar from '../components/NavigationBar';
 
-function Homepage() {
-    console.log("made it here");
+function Settings() {
     return (
         <div>
             <NavigationBar />
             <h1>
-                HOMEPAGE
+                Settings
             </h1>
         </div>
     )
 }
 
-export default Homepage;
-
+export default Settings
