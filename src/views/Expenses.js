@@ -6,7 +6,10 @@ function Expenses() {
     return (
         <div>
             <NavigationBar />
-            <br/><br/><br/><br/><br/><br/><br/>
+            <Expense />
+            <Expense />
+            <Expense />
+            <Expense />
             <Expense />
             <Expense />
             <Expense />

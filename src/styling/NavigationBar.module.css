@@ -32,7 +32,7 @@
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: #b9d8c3;
+  color: #6e8063;
   padding-bottom: 0.25rem;
-  border-bottom: 4px solid #9df095;
+  border-bottom: 4px solid #6e8063;
 }

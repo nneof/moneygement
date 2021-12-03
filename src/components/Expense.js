@@ -1,14 +1,16 @@
 import React from 'react'
 import Date from './Date'
-import './Expense.css'
+import '../styling/Expense.css'
 
 function expense() {
     return (
         <div className="expense">
             <Date />
-            <div classname="expense-category"> Category: </div>
-            <div classname="expense-comment"> Comments: </div>
-            <div classname="expense-price"> Price: </div>
+            <div className="expense-all">
+                <div className='expense-category'>Category: Others</div>
+                <div className="expense-comment">Comment: New fridge</div>
+                <div className="expense-price">$218.95</div>
+            </div>
         </div>
     )
 }
