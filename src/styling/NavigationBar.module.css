@@ -36,3 +36,9 @@
   padding-bottom: 0.25rem;
   border-bottom: 4px solid #6e8063;
 }
+
+.nav-bar-logo {
+  float: left;
+  width: 100px;
+  height: auto;
+}
