@@ -8,7 +8,7 @@ function expense() {
             <Date />
             <div className="expense-all">
                 <div className='expense-category'>Category: Others</div>
-                <div className="expense-comment">Comment: New fridge</div>
+                <div className="expense-description">Description: New fridge</div>
                 <div className="expense-price">$218.95</div>
             </div>
         </div>
