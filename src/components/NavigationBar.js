@@ -13,22 +13,22 @@ function NavigationBar() {
                 <nav>
                     <ul>
                         <li>
-                            <NavLink activeClassName={style.active} to='/homepage'>Homepage</NavLink>
+                            <NavLink activeclassname={style.active} to='/homepage'>Homepage</NavLink>
                         </li>
                         <li>
-                            <NavLink activeClassName={style.active} to='/expenses'>Expenses</NavLink>
+                            <NavLink activeclassname={style.active} to='/expenses'>Expenses</NavLink>
                         </li>
                         <li>
-                            <NavLink activeClassName={style.active} to='/shopping_list'>Shopping list</NavLink>
+                            <NavLink activeclassname={style.active} to='/shopping_list'>Shopping list</NavLink>
                         </li>
                         <li>
-                            <NavLink activeClassName={style.active} to='/notes'>Take a note</NavLink>
+                            <NavLink activeclassname={style.active} to='/notes'>Take a note</NavLink>
                         </li>
                         <li>
-                            <NavLink activeClassName={style.active} to='/settings'>Settings</NavLink>
+                            <NavLink activeclassname={style.active} to='/settings'>Settings</NavLink>
                         </li>
                         <li>
-                            <NavLink activeClassName={style.active} to='/login'>Logout</NavLink>
+                            <NavLink activeclassname={style.active} to='/login'>Logout</NavLink>
                         </li>
                     </ul>
                 </nav>

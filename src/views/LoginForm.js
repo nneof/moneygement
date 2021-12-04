@@ -28,6 +28,7 @@ function LoginForm() {
         // TODO: collect username in order to use it..
         // TODO: check if the user exists in the DB
         if (credentials.username === "admin" && credentials.password === "admin") {
+            // TODO: connect to database and fetch user profile
             navigate('/homepage')
         } else {
             console.log("Wrong credentials");
@@ -36,7 +37,7 @@ function LoginForm() {
 
     return (
         <div className={style.App}>
-            <form onSubmit={submitHandler}>
+            <form onSubmit={submitHandler} className={style['login-form']}>
                 <div className={style['form-inner']}>
                     <h2>Login</h2>
                     <div className={style['form-group']}>

@@ -13,9 +13,9 @@
 .expense-type {
     font-weight: bold;
     text-align: center;
-    width: max-content;
+    width: 20%;
     background-color: #ffcba4;
-    margin: 0px 0px 0px 10%;
+    margin: 0px 0px 0px 5%;
     border-radius: 12px;
     border: 1px solid #2a2a2a;
     padding: 1%;
@@ -24,15 +24,17 @@
 .expense-type-container {
     font-weight: normal;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 15%;
+    /* width: 20%; */
 }
 
 .expense-description {
     font-weight: bold;
     text-align: center;
-    width: max-content;
+    width: 33%;
     background-color: #ffcba4;
-    margin: 0px 10% 0px 10%;
+    margin-left: auto;
+    margin: 0px 5% 0px 5%;
     border-radius: 12px;
     border: 1px solid #2a2a2a;
     padding: 1%;
@@ -40,7 +42,6 @@
 
 .expense-description-text {
     font-weight: normal;
-    text-align: left;
     max-width: 10rem;
     max-height: 3.6rem;
     overflow: hidden;
@@ -52,7 +53,7 @@
     padding-left: 1%;
     background-color: #ffcba4;
     margin-left: auto;
-    width: max-content;
+    width: 25%;
     height: max-content;
     border-radius: 12px;
     border: 1px solid #2a2a2a;

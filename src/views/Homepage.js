@@ -2,7 +2,6 @@ import React from 'react'
 import NavigationBar from '../components/NavigationBar';
 
 function Homepage() {
-    console.log("made it here");
     return (
         <div>
             <NavigationBar />

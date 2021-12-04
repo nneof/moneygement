@@ -1,24 +1,24 @@
 import React from 'react'
-import Date from './Date'
+import ExpenseDate from './ExpenseDate'
 import '../styling/Expense.css'
 
-function expense() {
+function expense(props) {
     return (
         <div className="expense">
-            <Date className="expense-date" />
+            <ExpenseDate className="expense-date" date={props.date}/>
             <div className='expense-type'>
                 Type:
                 <p className="expense-type-container">
-                    Katigoria
+                    {props.type}
                 </p>
             </div>
             <div className="expense-description">
                 Description:
                 <p className="expense-description-text">
-                    This text area containts the description of the item
+                    {props.description}
                 </p>
             </div>
-            <div className="expense-price">$218.95</div>
+            <div className="expense-price">€{props.price}</div>
         </div>
     )
 }
