@@ -4,12 +4,15 @@
     border: 1px solid #2a2a2a;
     background-color: rgb(255, 255, 255);
     width: 40%;
-    min-width: 400px;
-    margin: auto;
+    min-width: 450px;
+    margin: 1% auto auto auto;
     padding: 5px;
+    
 }
 
 .expense-type {
+    font-weight: bold;
+    text-align: center;
     width: max-content;
     background-color: #ffcba4;
     margin: 0px 0px 0px 10%;
@@ -18,17 +21,35 @@
     padding: 1%;
 }
 
+.expense-type-container {
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20%;
+}
+
 .expense-description {
+    font-weight: bold;
+    text-align: center;
     width: max-content;
     background-color: #ffcba4;
-    margin: 0px 8px 0px 10%;
+    margin: 0px 10% 0px 10%;
     border-radius: 12px;
     border: 1px solid #2a2a2a;
     padding: 1%;
 }
 
+.expense-description-text {
+    font-weight: normal;
+    text-align: left;
+    max-width: 10rem;
+    max-height: 3.6rem;
+    overflow: hidden;
+}
+
 .expense-price {
-    margin: 30px 0px 0px 0px;
+    text-align: center;
+    margin: 30px 0px 0px 100px;
+    padding-left: 1%;
     background-color: #ffcba4;
     margin-left: auto;
     width: max-content;

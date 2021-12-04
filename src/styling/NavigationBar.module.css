@@ -1,8 +1,38 @@
 .header {
-  width: 100%;
   height: 5rem;
   background-color: #f6e8ca;
   padding: 0 10%;
+  font-weight: bold;
+  font-size: 22px;
+
+}
+
+ @media (max-width: 900px) {
+  .header {
+    font-size: 18px;
+    width: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    font-size: 14px;
+    width: auto;
+  }
+}
+
+@media (max-width: 590px) {
+  .header {
+    font-size: 11px;
+    width: auto;
+  }
+} 
+
+@media (max-width: 500px) {
+  .header {
+    font-size: 10px;
+    width: auto;
+  }
 }
 
 .header nav {
@@ -21,7 +51,7 @@
 
 .header li {
   margin: 0 1rem;
-  width: 6rem;
+  width: 9rem;
 }
 
 .header a {
@@ -33,12 +63,12 @@
 .header a:active,
 .header a.active {
   color: #6e8063;
-  padding-bottom: 0.25rem;
   border-bottom: 4px solid #6e8063;
 }
 
 .nav-bar-logo {
   float: left;
+  position: static;
   width: auto;
   height: 5rem;
 }

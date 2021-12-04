@@ -12,6 +12,12 @@ function Expenses() {
             <Expense />
             <Expense />
             <Expense />
+            <Expense />
+            <Expense />
+            <Expense />
+            <Expense />
+            <Expense />
+            <Expense />
         </div>
     )
 }

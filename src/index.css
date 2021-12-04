@@ -8,4 +8,5 @@
 .global {
     background-color: #6e8063;
     height: 100vh;
+    overflow: auto;
 }
