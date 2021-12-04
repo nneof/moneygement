@@ -1,33 +1,39 @@
 .expense {
-    position: relative;
     display: flex;
     border-radius: 12px;
     border: 1px solid #2a2a2a;
     background-color: rgb(255, 255, 255);
     width: 40%;
+    min-width: 400px;
     margin: auto;
     padding: 5px;
 }
 
-.expense-category {
-    position: absolute;
-    left: 100px;
-    top: 10%;
-}
-
-.expense-description {
-    position: absolute;
-    left: 300px;
-    top: 10%;
-}
-
-.expense-price {
-    position: absolute;
-    right: 0;
-    bottom: 40%;
-    padding-right: 3%;
+.expense-type {
+    width: max-content;
+    background-color: #ffcba4;
+    margin: 0px 0px 0px 10%;
     border-radius: 12px;
     border: 1px solid #2a2a2a;
     padding: 1%;
-    background-color: #f6e8ca;
+}
+
+.expense-description {
+    width: max-content;
+    background-color: #ffcba4;
+    margin: 0px 8px 0px 10%;
+    border-radius: 12px;
+    border: 1px solid #2a2a2a;
+    padding: 1%;
+}
+
+.expense-price {
+    margin: 30px 0px 0px 0px;
+    background-color: #ffcba4;
+    margin-left: auto;
+    width: max-content;
+    height: max-content;
+    border-radius: 12px;
+    border: 1px solid #2a2a2a;
+    padding: 1%;
 }
