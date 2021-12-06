@@ -1,0 +1,56 @@
+.homepage {
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-expense {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    padding: 1%;
+    border-radius: 12px;
+    border-color: black;
+}
+
+.homepage-shopping-list {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    padding: 1%;
+    border-radius: 12px;
+    border-color: black;
+}
+
+.homepage-notes {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    padding: 1%;
+    border-radius: 12px;
+    border-color: black;
+}
+
+.homepage-future-analysis {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    padding: 1%;
+    border-radius: 12px;
+    border-color: black;
+}
